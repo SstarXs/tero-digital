@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tero Digital Solutions | Elevamos tu empresa al mundo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            tero: {
+              red: '#c21f40',
+              cream: '#e0dcb8',
+              dark: '#302c25',
+              'red-hover': '#a61a36',
+              'cream-dark': '#d1cd9f',
+              'dark-light': '#3f3a31'
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { scroll-behavior: smooth; }
+    .tero-gradient {
+      background: linear-gradient(135deg, #e0dcb8 0%, #d1cd9f 100%);
+    }
+    .tero-dark-gradient {
+      background: linear-gradient(135deg, #302c25 0%, #25221d 100%);
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-tero-cream text-tero-dark">
+  <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
