@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "@/Home";
-import Privacidad from "@/Privacidad";
-import Terminos from "@/Terminos";
+import Home from "@/src/pages/Home";
+import Privacidad from "@/src/pages/Privacidad";
+import Terminos from "@/src/pages/Terminos";
 
 const App = () => {
 
