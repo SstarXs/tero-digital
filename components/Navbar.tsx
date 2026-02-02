@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 flex items-center justify-center">
               <img 
-                src="assets/logo.png" 
+                src="/assets/logo.png" 
                 alt="Tero Logo" 
                 className="max-w-full max-h-full object-contain"
                 onError={(e) => {
