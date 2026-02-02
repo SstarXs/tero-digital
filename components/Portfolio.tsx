@@ -5,19 +5,19 @@ const projects = [
   {
     title: "Diseñar el sitio web para tu negocio",
     category: "Diseño Web",
-    image: "@/assets/proyecto1.jpg",
+    image: "/assets/proyecto1.jpg",
     description: "Podemos diseñar el sitio web para que tu negocio crezca."
   },
   {
     title: "Creacion de tienda Online.",
     category: "Tiendas Digitales",
-    image: "@/assets/proyecto2.jpg",
+    image: "/assets/proyecto2.jpg",
     description: "Podemos crear tu tienda para ampliar tu negocio internacionalmente."
   },
   {
     title: "Administración y automatizacion",
     category: "Administracion",
-    image: "@/assets/proyecto3.jpg",
+    image: "/assets/proyecto3.jpg",
     description: "Podemos administrar y organizar diferentes aspectos de tu empresa, como desarrollar graficas o archivos."
   }
 ];
