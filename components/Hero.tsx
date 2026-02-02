@@ -11,11 +11,11 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tero-red/10 border border-tero-red/20 mb-6">
             <span className="w-2 h-2 rounded-full bg-tero-red animate-pulse"></span>
-            <span className="text-tero-red text-xs font-bold uppercase tracking-widest">Expertos en Transformación Digital</span>
+            <span className="text-tero-red text-xs font-bold uppercase tracking-widest">Soluciones Digitales</span>
           </div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-tero-dark leading-[1.1] mb-8">
-            Un sitio web es la línea entre una <span className="text-tero-red underline decoration-tero-red/30">pyme local</span> y una empresa <span className="italic">internacional</span>.
+            Un sitio web es la línea entre una <span className="text-tero-red underline decoration-tero-red/30">pyme local</span> y una empresa <span className="text-tero-red underline decoration-tero-red/30">internacional</span>
           </h1>
           
           <p className="text-xl text-tero-dark/80 mb-12 max-w-2xl leading-relaxed font-medium">
