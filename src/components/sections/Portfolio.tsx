@@ -23,7 +23,14 @@ const projects = [
 ];
 
 const Portfolio: React.FC = () => {
-  console.log('Intentando cargar imágenes desde:', projects.map(p => p.image));
+  React.useEffect(() => {
+    projects.forEach((project, index) => {
+      const img = new Image();
+      img.onload = () => console.log(`✅ Imagen ${index} cargada: ${project.image}`);
+      img.onerror = () => console.log(`❌ Error cargando imagen ${index}: ${project.image}`);
+      img.src = project.image;
+    });
+  }, []);
   return (
     <section id="proyectos" className="py-32 bg-tero-dark tero-dark-gradient">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
