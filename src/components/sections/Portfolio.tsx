@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Diseñar el sitio web para tu negocio",
     category: "Diseño Web",
-    image: "./assets/proyecto1.png",
+    image: "https://www.istockphoto.com/es/fotos/gatitos-reci%C3%A9n-nacidos",
     description: "Podemos diseñar el sitio web para que tu negocio crezca."
   },
   {
