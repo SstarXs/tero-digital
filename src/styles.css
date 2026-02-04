@@ -796,3 +796,34 @@ nav.navbar {
     font-size: 2rem;
   }
 }
+/* ===== LOGOS CONSISTENTES ===== */
+.navbar-logo {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-text {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.footer-brand-text {
+  font-size: 1.875rem;
+  font-weight: 900;
+  color: var(--tero-dark);
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
