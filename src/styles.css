@@ -827,3 +827,26 @@ nav.navbar {
   letter-spacing: -0.025em;
   text-transform: uppercase;
 }
+
+/* ===== LOGOS CONSISTENTES ===== */
+.navbar-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.brand-text {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}

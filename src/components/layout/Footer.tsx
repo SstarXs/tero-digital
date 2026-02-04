@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from "react-router-dom";
 
@@ -9,18 +9,20 @@ const Footer: React.FC = () => {
         <div className="footer-grid">
           <div>
             <div className="footer-brand">
-              <div className="footer-logo">
+              <div className="navbar-logo">
                 <img 
                   src="/assets/logo.png" 
                   alt="Tero Logo" 
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
-                    target.parentElement!.innerHTML = '<div style="background-color: #c21f40; padding: 0.75rem; border-radius: 0.75rem; color: white; font-weight: bold; font-size: 1.25rem;">T</div>';
+                    target.parentElement!.innerHTML = '<div style="background-color: #c21f40; padding: 0.5rem; border-radius: 0.5rem; color: white; font-weight: bold;">T</div>';
                   }}
                 />
               </div>
-              <span className="footer-brand-text">Tero <span style={{ color: '#c21f40' }}>Digital</span></span>
+              <span className="brand-text">
+                <span style={{ color: "#c21f40" }}>Tero</span> Digital Solutions
+              </span>
             </div>
             <h4 className="footer-title">¿Listo para volar más alto con nosotros?</h4>
             <div className="contact-grid">
