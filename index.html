@@ -4,82 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tero Digital Solutions | Elevamos tu empresa al mundo</title>
-<style>
-/* Estilos esenciales para Portfolio */
-.bg-tero-dark { background: linear-gradient(135deg, #302c25 0%, #25221d 100%); }
-.py-32 { padding: 8rem 0; }
-.max-w-7xl { max-width: 80rem; margin: 0 auto; }
-.px-4 { padding-left: 1rem; padding-right: 1rem; }
-.grid { display: grid; gap: 2rem; }
-.grid-cols-1 { grid-template-columns: 1fr; }
-@media (min-width: 768px) { .md\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); } }
-.bg-tero-dark-light { background-color: #3f3a31; }
-.rounded-\[2\.5rem\] { border-radius: 2.5rem; overflow: hidden; }
-.aspect-\[4\/5\] { aspect-ratio: 4/5; }
-.w-full { width: 100%; }
-.h-full { height: 100%; }
-.object-cover { object-fit: cover; }
-.absolute { position: absolute; }
-.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
-.p-8 { padding: 2rem; }
-.bg-tero-red { background-color: #c21f40; }
-.text-white { color: white; }
-.text-2xl { font-size: 1.5rem; font-weight: 700; }
-.text-tero-cream { color: #e0dcb8; }
-.text-sm { font-size: 0.875rem; }
-.text-tero-red { color: #c21f40; }
-.font-black { font-weight: 900; }
-.uppercase { text-transform: uppercase; }
-.tracking-\[0\.2em\] { letter-spacing: 0.2em; }
-.mb-4 { margin-bottom: 1rem; }
-.text-4xl { font-size: 2.25rem; }
-.font-extrabold { font-weight: 800; }
-.border { border: 1px solid rgba(255, 255, 255, 0.1); }
-.grayscale { filter: grayscale(100%); }
-.transition-all { transition: all 0.7s; }
-.group:hover .group-hover\:grayscale-0 { filter: grayscale(0); }
-.group:hover .group-hover\:scale-105 { transform: scale(1.05); }
-.bg-gradient-to-t { background: linear-gradient(to top, #302c25, rgba(48, 44, 37, 0.2), transparent); }
-.opacity-90 { opacity: 0.9; }
-.bottom-0 { bottom: 0; }
-.transform { transform: translateY(0); transition: transform 0.5s; }
-.group:hover .group-hover\:-translate-y-2 { transform: translateY(-0.5rem); }
-.inline-block { display: inline-block; }
-.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
-.py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
-.rounded-full { border-radius: 9999px; }
-.text-\[10px\] { font-size: 10px; }
-.tracking-widest { letter-spacing: 0.1em; }
-.mb-6 { margin-bottom: 1.5rem; }
-.leading-relaxed { line-height: 1.625; }
-.line-clamp-4 { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-.bg-tero-cream { background-color: #e0dcb8; }
-.text-tero-dark { color: #302c25; }
-</style>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            tero: {
-              red: '#c21f40',
-              cream: '#e0dcb8',
-              dark: '#302c25',
-              'red-hover': '#a61a36',
-              'cream-dark': '#d1cd9f',
-              'dark-light': '#3f3a31'
-            }
-          },
-          fontFamily: {
-            sans: ['Plus Jakarta Sans', 'sans-serif'],
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="/src/styles.css">
   <style>
-    body { scroll-behavior: smooth; }
     .tero-gradient {
       background: linear-gradient(135deg, #e0dcb8 0%, #d1cd9f 100%);
     }
@@ -87,10 +14,9 @@
       background: linear-gradient(135deg, #302c25 0%, #25221d 100%);
     }
   </style>
-  <link rel="stylesheet" href="/src/index.css">
 </head>
-<body class="bg-tero-cream text-tero-dark">
+<body>
   <div id="root"></div>
-<script type="module" src="/src/index.tsx"></script>
+  <script type="module" src="/src/index.tsx"></script>
 </body>
 </html>

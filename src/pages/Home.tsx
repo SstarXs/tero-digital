@@ -6,9 +6,9 @@ import Footer from "@/src/components/layout/Footer";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Navbar />
-      <main className="flex-grow">
+      <main style={{ flexGrow: 1 }}>
         <Hero />
         <Services />
         <Portfolio />
